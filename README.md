@@ -70,3 +70,69 @@ Graphics
 
 ![](https://github.com/Nicolashex/parallel-primes/blob/main/speedupvseficiencia40mill.PNG?raw=true)
 
+Second result calculating primes between 2 and 400 hundred thousand.
+
+<table>
+    <thead>
+      <tr>
+        <th>Number of threads</th>
+        <th>Average time in mili seconds</th>
+        <th>SpeedUp</th>
+        <th>Efficency</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>82,375</td>
+            <td>1</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>79,625</td>
+            <td>1,034536892</td>
+            <td>52%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>54,625</td>
+            <td>1,508009153</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>54,375</td>
+            <td>1,514942529</td>
+            <td>38%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>53,125</td>
+            <td>1,550588235</td>
+            <td>31%</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>58,75</td>
+            <td>1,40212766</td>
+            <td>23%</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>59</td>
+            <td>1,396186441</td>
+            <td>20%</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>57,125</td>
+            <td>1,442013129</td>
+            <td>18%</td>
+        </tr>
+    </tbody>
+  </table>
+Graphics
+
+![](https://github.com/Nicolashex/parallel-primes/blob/main/speedupvseficiencia400mil.PNG?raw=true)
+
